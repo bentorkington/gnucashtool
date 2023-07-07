@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gnc-v2
+     xmlns:gnc="http://www.gnucash.org/XML/gnc"
+     xmlns:act="http://www.gnucash.org/XML/act"
+     xmlns:book="http://www.gnucash.org/XML/book"
+     xmlns:cd="http://www.gnucash.org/XML/cd"
+     xmlns:cmdty="http://www.gnucash.org/XML/cmdty"
+     xmlns:price="http://www.gnucash.org/XML/price"
+     xmlns:slot="http://www.gnucash.org/XML/slot"
+     xmlns:split="http://www.gnucash.org/XML/split"
+     xmlns:sx="http://www.gnucash.org/XML/sx"
+     xmlns:trn="http://www.gnucash.org/XML/trn"
+     xmlns:ts="http://www.gnucash.org/XML/ts"
+     xmlns:fs="http://www.gnucash.org/XML/fs"
+     xmlns:bgt="http://www.gnucash.org/XML/bgt"
+     xmlns:recurrence="http://www.gnucash.org/XML/recurrence"
+     xmlns:lot="http://www.gnucash.org/XML/lot"
+     xmlns:addr="http://www.gnucash.org/XML/addr"
+     xmlns:billterm="http://www.gnucash.org/XML/billterm"
+     xmlns:bt-days="http://www.gnucash.org/XML/bt-days"
+     xmlns:bt-prox="http://www.gnucash.org/XML/bt-prox"
+     xmlns:cust="http://www.gnucash.org/XML/cust"
+     xmlns:employee="http://www.gnucash.org/XML/employee"
+     xmlns:entry="http://www.gnucash.org/XML/entry"
+     xmlns:invoice="http://www.gnucash.org/XML/invoice"
+     xmlns:job="http://www.gnucash.org/XML/job"
+     xmlns:order="http://www.gnucash.org/XML/order"
+     xmlns:owner="http://www.gnucash.org/XML/owner"
+     xmlns:taxtable="http://www.gnucash.org/XML/taxtable"
+     xmlns:tte="http://www.gnucash.org/XML/tte"
+     xmlns:vendor="http://www.gnucash.org/XML/vendor">
+<gnc:count-data cd:type="book">1</gnc:count-data>
+<gnc:book version="2.0.0">
+<book:id type="guid">cd630638983b4897965a4c8352e104a4</book:id>
+<book:slots>
+  <slot>
+    <slot:key>counter_formats</slot:key>
+    <slot:value type="frame">
+      <slot>
+        <slot:key>gncBill</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncCustomer</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncEmployee</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncExpVoucher</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncInvoice</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncJob</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncOrder</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncVendor</slot:key>
+        <slot:value type="string"></slot:value>
+      </slot>
+    </slot:value>
+  </slot>
+  <slot>
+    <slot:key>counters</slot:key>
+    <slot:value type="frame">
+      <slot>
+        <slot:key>gncBill</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncCustomer</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncEmployee</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncExpVoucher</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncInvoice</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncJob</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncOrder</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+      <slot>
+        <slot:key>gncVendor</slot:key>
+        <slot:value type="integer">0</slot:value>
+      </slot>
+    </slot:value>
+  </slot>
+  <slot>
+    <slot:key>features</slot:key>
+    <slot:value type="frame">
+      <slot>
+        <slot:key>Register sort and filter settings stored in .gcm file</slot:key>
+        <slot:value type="string">Store the register sort and filter settings in .gcm metadata file (requires at least GnuCash 3.3)</slot:value>
+      </slot>
+      <slot>
+        <slot:key>Use a dedicated opening balance account identified by an 'equity-type' slot</slot:key>
+        <slot:value type="string">Use a dedicated opening balance account identified by an 'equity-type' slot (requires at least Gnucash 4.3)</slot:value>
+      </slot>
+    </slot:value>
+  </slot>
+  <slot>
+    <slot:key>options</slot:key>
+    <slot:value type="frame">
+      <slot>
+        <slot:key>Accounts</slot:key>
+        <slot:value type="frame">
+          <slot>
+            <slot:key>Day Threshold for Read-Only Transactions (red line)</slot:key>
+            <slot:value type="double">0</slot:value>
+          </slot>
+          <slot>
+            <slot:key>Use Split Action Field for Number</slot:key>
+            <slot:value type="string">f</slot:value>
+          </slot>
+          <slot>
+            <slot:key>Use Trading Accounts</slot:key>
+            <slot:value type="string">f</slot:value>
+          </slot>
+        </slot:value>
+      </slot>
+      <slot>
+        <slot:key>Business</slot:key>
+        <slot:value type="frame">
+          <slot>
+            <slot:key>Company Address</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company Contact Person</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company Email Address</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company Fax Number</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company ID</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company Name</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company Phone Number</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Company Website URL</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+          <slot>
+            <slot:key>Default Customer TaxTable</slot:key>
+            <slot:value type="guid">e3e4548ce6c3494592b280e77d529482</slot:value>
+          </slot>
+          <slot>
+            <slot:key>Default Invoice Report</slot:key>
+            <slot:value type="string">5123a759ceb9483abf2182d01c140e8d/Printable Invoice</slot:value>
+          </slot>
+          <slot>
+            <slot:key>Default Invoice Report Timeout</slot:key>
+            <slot:value type="double">0</slot:value>
+          </slot>
+          <slot>
+            <slot:key>Default Vendor TaxTable</slot:key>
+            <slot:value type="guid">be530e30fa8149a085d31643869bfb91</slot:value>
+          </slot>
+          <slot>
+            <slot:key>Fancy Date Format</slot:key>
+            <slot:value type="string">%d/%m/%Y</slot:value>
+          </slot>
+        </slot:value>
+      </slot>
+      <slot>
+        <slot:key>Tax</slot:key>
+        <slot:value type="frame">
+          <slot>
+            <slot:key>Tax Number</slot:key>
+            <slot:value type="string"></slot:value>
+          </slot>
+        </slot:value>
+      </slot>
+    </slot:value>
+  </slot>
+  <slot>
+    <slot:key>remove-color-not-set-slots</slot:key>
+    <slot:value type="string">true</slot:value>
+  </slot>
+</book:slots>
+<gnc:count-data cd:type="commodity">1</gnc:count-data>
+<gnc:count-data cd:type="account">14</gnc:count-data>
+<gnc:count-data cd:type="transaction">20</gnc:count-data>
+<gnc:commodity version="2.0.0">
+  <cmdty:space>CURRENCY</cmdty:space>
+  <cmdty:id>NZD</cmdty:id>
+  <cmdty:get_quotes/>
+  <cmdty:quote_source>currency</cmdty:quote_source>
+  <cmdty:quote_tz/>
+</gnc:commodity>
+<gnc:commodity version="2.0.0">
+  <cmdty:space>template</cmdty:space>
+  <cmdty:id>template</cmdty:id>
+  <cmdty:name>template</cmdty:name>
+  <cmdty:xcode>template</cmdty:xcode>
+  <cmdty:fraction>1</cmdty:fraction>
+</gnc:commodity>
+<gnc:account version="2.0.0">
+  <act:name>Root Account</act:name>
+  <act:id type="guid">a40dcb8cc69b4469ba0321020e733440</act:id>
+  <act:type>ROOT</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Assets</act:name>
+  <act:id type="guid">8cb18b0eb6b24f95adbc9014c13fe026</act:id>
+  <act:type>ASSET</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Assets</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>placeholder</slot:key>
+      <slot:value type="string">true</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">a40dcb8cc69b4469ba0321020e733440</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Current Assets</act:name>
+  <act:id type="guid">0ca5a04c955f4aa5956a3bc8ead53bb6</act:id>
+  <act:type>ASSET</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Current Assets</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>placeholder</slot:key>
+      <slot:value type="string">true</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">8cb18b0eb6b24f95adbc9014c13fe026</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Checking Account</act:name>
+  <act:id type="guid">f6b6e0d08df44944a86539eac276e01c</act:id>
+  <act:type>BANK</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Checking Account</act:description>
+  <act:parent type="guid">0ca5a04c955f4aa5956a3bc8ead53bb6</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Savings Account</act:name>
+  <act:id type="guid">76c77215d4d94608b0851955476ed562</act:id>
+  <act:type>ASSET</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Savings Account</act:description>
+  <act:parent type="guid">0ca5a04c955f4aa5956a3bc8ead53bb6</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Income</act:name>
+  <act:id type="guid">a1963659821f4baf8a16486cb8d727ab</act:id>
+  <act:type>INCOME</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Income</act:description>
+  <act:parent type="guid">a40dcb8cc69b4469ba0321020e733440</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Paper Run</act:name>
+  <act:id type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</act:id>
+  <act:type>INCOME</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:parent type="guid">a1963659821f4baf8a16486cb8d727ab</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Flour Mill</act:name>
+  <act:id type="guid">9224e8474a844b7dae24e84ab7987ee4</act:id>
+  <act:type>INCOME</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:parent type="guid">a1963659821f4baf8a16486cb8d727ab</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Expenses</act:name>
+  <act:id type="guid">b2435432b25b4b5a895a2e862ff3f9b8</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Expenses</act:description>
+  <act:parent type="guid">a40dcb8cc69b4469ba0321020e733440</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Electricity</act:name>
+  <act:id type="guid">87ee3c18b63f42148287a324d255a167</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:parent type="guid">b2435432b25b4b5a895a2e862ff3f9b8</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Chocolate</act:name>
+  <act:id type="guid">1c37c9eac71a4d85b8f5d7adb982d1ff</act:id>
+  <act:type>EXPENSE</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:parent type="guid">b2435432b25b4b5a895a2e862ff3f9b8</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Equity</act:name>
+  <act:id type="guid">ef908b595cf0431ea83d5388b7b9c1be</act:id>
+  <act:type>EQUITY</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Equity</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>placeholder</slot:key>
+      <slot:value type="string">true</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">a40dcb8cc69b4469ba0321020e733440</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Opening Balances</act:name>
+  <act:id type="guid">d5363ff581b64336b7fe7ef967f4ec19</act:id>
+  <act:type>EQUITY</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:description>Opening Balances</act:description>
+  <act:slots>
+    <slot>
+      <slot:key>equity-type</slot:key>
+      <slot:value type="string">opening-balance</slot:value>
+    </slot>
+  </act:slots>
+  <act:parent type="guid">ef908b595cf0431ea83d5388b7b9c1be</act:parent>
+</gnc:account>
+<gnc:account version="2.0.0">
+  <act:name>Orphan-NZD</act:name>
+  <act:id type="guid">9964695c88fd42c9b41e03af51bd7108</act:id>
+  <act:type>BANK</act:type>
+  <act:commodity>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </act:commodity>
+  <act:commodity-scu>100</act:commodity-scu>
+  <act:parent type="guid">a40dcb8cc69b4469ba0321020e733440</act:parent>
+</gnc:account>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">95d2511ee420478da0ff545a9a67a791</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-01 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-04 07:47:56 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Opening Balance</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-01</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">33e8fde317a74322b997861d8f24b9dc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>10000/100</split:value>
+      <split:quantity>10000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">2138ea78937b43158dafe674154a9bef</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-10000/100</split:value>
+      <split:quantity>-10000/100</split:quantity>
+      <split:account type="guid">d5363ff581b64336b7fe7ef967f4ec19</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">fb9a87b3314441afb0bad1ec6aafe673</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-02 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-04 07:48:26 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Chocolate</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-02</gdate>
+      </slot:value>
+    </slot>
+    <slot>
+      <slot:key>notes</slot:key>
+      <slot:value type="string">ChocolateSecondLine</slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">000c7bb0c85140f5bf1ce681992488af</split:id>
+      <split:memo>SplitChocolateExpense</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>25/100</split:value>
+      <split:quantity>25/100</split:quantity>
+      <split:account type="guid">b2435432b25b4b5a895a2e862ff3f9b8</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">44357d35035c4c2ca0304bf47e44fa2b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>25/100</split:value>
+      <split:quantity>25/100</split:quantity>
+      <split:account type="guid">87ee3c18b63f42148287a324d255a167</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d37abd7614104a988572b830d289cdd4</split:id>
+      <split:memo>SplitChocolateChecking</split:memo>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-50/100</split:value>
+      <split:quantity>-50/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">2b3603f0fbda43eda067f73f5f3dd7e4</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-05 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:14:44 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-05</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">143bcd61fc034c25918b34b2eab94974</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">71d7c817a6bd4f38b7fc2d3f324d63d8</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">ee822c89dc0c444887889cb18983299e</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-05 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:14:58 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-05</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">55e338e1aecb4d00bd55ddc6eb1ed6f0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">b510f79dc0a34d42af14b66bdf131d6e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">6557c6d87a7649dab05b2780252a33c7</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-12 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:15:05 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-12</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">1d8e4ff0a5ed4d96bb1b57cbb86cef5b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">157a29b92161486095046f7cfa7351fe</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">93c3daa1cd39449e9547b0f90b30db82</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-12 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:15:10 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-12</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">4fdf419d16fe4a3e9cd5615fd7fc3a65</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">d9275088258d415891a16fb124d63ce1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">d65d7a63d3684d62b80e885dd9af60ee</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-19 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:15:16 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-19</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">df737d5a4cea4718bd9e4e74390a75b7</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">00c974a304a7455eada71aed1b664c45</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">0bafe317d7f8473c8d5330276faeec1d</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-19 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:15:19 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-19</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">18e2a21154fe4582b2a789fecbd2a9f9</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f0f713cc637243369a7c7883500c6d8e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5310e593d765449e94ae6e3c9d729ac7</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-26 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:15:30 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-26</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">477d61c0c0b646e3aac2b22cd03a842a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">3930903fa92f49818d22e217531903fe</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">798b0af819f84f84957b2e065e0bd51d</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-04-26 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:15:35 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-04-26</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">fe4b43b36a75492d8a50ada144642767</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1a983d20f235498588f8a60a20035cb0</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">4ca7b63989cb4950a2b9e25c757391a5</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-03 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:17:09 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-03</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">5162ed7a4e834d6487453a860fa6b4ae</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">9337e36082a046bf9792bedb49b31d30</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">87362e89fcd8425c833518f7cad6e8ee</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-03 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:18:22 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-03</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ff2f0e96f39f43b8a42ac636d53fb4dc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">cd2f6130f08346ffb0ef37c58b316c6a</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">9224e8474a844b7dae24e84ab7987ee4</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5ff41131a3ed4c9490b81e28a0cf8927</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-10 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:17:15 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-10</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d9e80800ab8d4894b50ed7f49dd26276</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">a6ede4d4ad9c486190c0814c885db299</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">947cc99df3014875a298d407e8af1517</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-10 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:18:25 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-10</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">f2117ee827f24fe2b693568f9961b081</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f6d13d902b6b4be1b56f7a1c7ecc4a3b</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">9224e8474a844b7dae24e84ab7987ee4</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">314ca409329348189301ed47f3f4578a</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-17 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:17:21 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-17</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">ac86896b296f4bdd902da1941a11e44e</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">baebe978c97444c18561e5af18a54a36</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">b4140c7e5a3f49669c08a3a66e83e5da</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-17 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:18:34 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-17</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">12c8a523c8604178a95146b9398ac245</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">f492c2d5766e4125b6ce6373423dddd1</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">9224e8474a844b7dae24e84ab7987ee4</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">32783488189d4fde9cc41aecf23ea58d</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-24 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:17:46 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-24</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">d9785f974b51435a9547444f8dbc3730</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">10701cba24c54cf487143413b00730fc</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">a9691060493d4bd7b6d47860414bf46e</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-24 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:18:38 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-24</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">27ed2adfa6a54c74b189e0196181945c</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">225d57d7935e437881bc6357a3cf33ad</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">9224e8474a844b7dae24e84ab7987ee4</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">5ffef4983b614650b22ad4bb2b39e628</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-31 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:17:52 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Paper Run Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-31</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">df178f9bc3d84b04a47ed932070adc1f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>2000/100</split:value>
+      <split:quantity>2000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">235e8e20b7d148a480adf615bbd69749</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-2000/100</split:value>
+      <split:quantity>-2000/100</split:quantity>
+      <split:account type="guid">ef4e9e1992094a2b8f9a3e87c39e6b11</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+<gnc:transaction version="2.0.0">
+  <trn:id type="guid">03bf860786674c0ca2cb94ab366aa3f8</trn:id>
+  <trn:currency>
+    <cmdty:space>CURRENCY</cmdty:space>
+    <cmdty:id>NZD</cmdty:id>
+  </trn:currency>
+  <trn:date-posted>
+    <ts:date>2022-05-31 10:59:00 +0000</ts:date>
+  </trn:date-posted>
+  <trn:date-entered>
+    <ts:date>2023-07-06 22:18:41 +0000</ts:date>
+  </trn:date-entered>
+  <trn:description>Flour Mill Wages</trn:description>
+  <trn:slots>
+    <slot>
+      <slot:key>date-posted</slot:key>
+      <slot:value type="gdate">
+        <gdate>2022-05-31</gdate>
+      </slot:value>
+    </slot>
+  </trn:slots>
+  <trn:splits>
+    <trn:split>
+      <split:id type="guid">c5c7c29cf20a4d9a80738b7f4ec51a47</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>5000/100</split:value>
+      <split:quantity>5000/100</split:quantity>
+      <split:account type="guid">f6b6e0d08df44944a86539eac276e01c</split:account>
+    </trn:split>
+    <trn:split>
+      <split:id type="guid">1fa7d96e015c4b3fb25a63b29a6ca42f</split:id>
+      <split:reconciled-state>n</split:reconciled-state>
+      <split:value>-5000/100</split:value>
+      <split:quantity>-5000/100</split:quantity>
+      <split:account type="guid">9224e8474a844b7dae24e84ab7987ee4</split:account>
+    </trn:split>
+  </trn:splits>
+</gnc:transaction>
+</gnc:book>
+</gnc-v2>
+
